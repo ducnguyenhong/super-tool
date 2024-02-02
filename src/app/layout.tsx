@@ -17,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="bg-cyan-200 h-16">aaaaaaaaa</nav>
+        {/* <nav className="bg-cyan-200 h-16">aaaaaaaaa</nav> */}
 
-        <div>{children}</div>
+        <div className="bg-gray-200">{children}</div>
       </body>
     </html>
   );
